@@ -15,6 +15,8 @@ public class SortingNums {
 		int num = 0;
 		for(int i=0;i<Nums.length;i++) {
 			for(int j=0;j<Nums.length-i-1;j++) {
+				// How many  iteration can take  for second forloop 
+				// count value
 				num++;
 				// if we use > it indicate ascending Order
 				// if we use < Descending Order 
